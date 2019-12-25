@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple generic reverse proxy for any given url",
   "scripts": {
-    "start": "micro-proxy -r generic_proxy.js -H 0.0.0.0 -p ${PORT:-8888}"
+    "start": "node index.js -r generic_proxy.js -H 0.0.0.0 -p ${PORT:-8888}"
   },
   "engines": {
     "node": "10.x"
